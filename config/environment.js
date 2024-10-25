@@ -46,6 +46,7 @@ module.exports = function (environment) {
   if (environment === 'production') {
     // here you can enable a production-specific feature
     ENV.redirectUri = 'https://mansona.github.io/ynab-api-starter-kit-ember/';
+    ENV.rootURL = '/ynab-api-starter-kit-ember/';
   }
 
   return ENV;
