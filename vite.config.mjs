@@ -24,6 +24,7 @@ const extensions = [
 
 export default defineConfig(({ mode }) => {
   return {
+    base: mode === 'production' ? '/ynab-api-starter-kit-ember/' : '/', 
     resolve: {
       extensions,
     },
